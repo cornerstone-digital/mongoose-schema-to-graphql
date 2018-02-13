@@ -319,6 +319,6 @@ but was specified as population reference.
   return resultingGraphQLType;
 }
 
-exports = module.exports = createType;
-exports.generateNameForSubField = generateNameForSubField;
-exports.generateDescriptionForSubField = generateDescriptionForSubField;
+// exports = module.exports = createType;
+// exports.generateNameForSubField = generateNameForSubField;
+// exports.generateDescriptionForSubField = generateDescriptionForSubField;
