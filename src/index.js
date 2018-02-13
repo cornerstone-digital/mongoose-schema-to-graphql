@@ -124,7 +124,7 @@ const memoize = (name, resultingGraphQLType) => {
  */
 const getFromMemory = name => generatedTypesMemory[name];
 
-function createType(args) {
+export function createType(args) {
   const parsedArgs = parseArgs(args);
 
   // Check if this type is already memoized
